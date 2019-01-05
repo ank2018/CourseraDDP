@@ -1,0 +1,40 @@
+My Shiny App RPresentaion
+========================================================
+author: AD
+date: `r date()`
+autosize: true
+
+Introduction
+========================================================
+
+This assignment has two parts.
+- Create a Shiny application and deploy it on Rstudio's servers.
+- Use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about the application.
+
+
+Shiny Application
+========================================================
+
+Shiny application for this assignment is developed using the mpg dataset in the ggplot2 R package.
+This dataset provides the fuel economy information for manufacturers for the timeframe of 1999-2008.
+
+The application url is as follows: https://ad2019.shinyapps.io/myshinyapp/
+
+Shiny App Files
+========================================================
+
+The Shiny application is created using the ui.R and server.R files.
+
+Github url is as follows: https://github.com/ank2018/CourseraDDP
+
+
+Data Analysis
+========================================================
+
+```{r}
+library(datasets)
+library(ggplot2)
+data(mpg)
+str(mpg)
+summary(mpg)
+```

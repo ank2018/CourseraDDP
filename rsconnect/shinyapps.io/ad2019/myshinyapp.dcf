@@ -1,0 +1,10 @@
+name: myshinyapp
+title:
+username:
+account: ad2019
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 627564
+bundleId: 1798285
+url: https://ad2019.shinyapps.io/myshinyapp/
+when: 1546725032.97372
